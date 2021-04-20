@@ -14,7 +14,7 @@ import {
     Avatar
   } from "@material-ui/core";
   import FavoriteIcon from "@material-ui/icons/Favorite";
-  import Profile from './avatar-3637425_960_720.webp';
+  import Profile from './Profile-pic.png';
   import Calender from './CalendarBlank.png';
   import GreenAvatar from './GreenAvatar'
 
@@ -44,17 +44,17 @@ const ProfileCard = () => {
                   <GreenAvatar />
                 </CardContent>
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <Typography gutterBottom variant="h5" component="h2" style={{fontWeight: 'bold'}}>
                     Jane Cooper
                   </Typography>
                   <CardContent style={{display: 'flex', alignItems:'center', padding: '0'}}>
-                    <Avatar alt="Remy Sharp" src={Calender} className={classes.small} />
+                    <Avatar alt="Remy Sharp" src={Calender} style={{height: '20px', width: '20px'}} />
                     <Typography variant="body2" color="textSecondary" component="p">
                       07/09/1970
                     </Typography>
                   </CardContent>
                   <CardContent style={{display: 'flex', alignItems:'center', padding: '0'}}>
-                    <Avatar alt="Remy Sharp" src={Calender} className={classes.small} />
+                    <Avatar alt="Remy Sharp" src={Calender} style={{height: '20px', width: '20px'}} />
                     <Typography variant="body2" color="textSecondary" component="p">
                       Female
                     </Typography>
@@ -71,7 +71,7 @@ const ProfileCard = () => {
                     Primary
                   </Button> */}
                   <Button size="small" style={{background: 'linear-gradient(102.53deg, #9076F4 2.33%, #B19FF7 107.85%)',borderRadius: '10px', width: '129px', height: '38px', padding: '9px 20px', color: 'white'}}>
-                    Secondary
+                    Profile
                   </Button>
                 </CardActions>
               </Card>

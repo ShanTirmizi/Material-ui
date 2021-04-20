@@ -2,7 +2,7 @@ import React from 'react';
 import Badge from '@material-ui/core/Badge';
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
-import ProfileGreen from './avatar-3637425_960_720.webp'
+import ProfileGreen from './Profile-pic.png'
 
 const StyledBadge = withStyles((theme) => ({
   badge: {
@@ -55,7 +55,7 @@ export default function GreenAvatar() {
         }}
         variant="dot"
       >
-        <Avatar alt="Remy Sharp" src={ProfileGreen} />
+        <Avatar alt="Remy Sharp" src={ProfileGreen} style={{height: '65px', width: '65px'}} />
       </StyledBadge>
     </div>
   );

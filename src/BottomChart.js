@@ -7,9 +7,9 @@ charts(FusionCharts);
 
 const dataSource = {
   chart: {
-    caption: "Support Tickets : Received vs Resolved",
+    // caption: "Performance",
     yaxisname: "# of Tickets",
-    subcaption: "Last week",
+    // subcaption: "Last week",
     numdivlines: "3",
     showvalues: "0",
     legenditemfontsize: "15",
@@ -46,7 +46,7 @@ const dataSource = {
   ],
   dataset: [
     {
-      seriesname: "Received",
+      seriesname: "Sleep",
       data: [
         {
           value: "55"
@@ -72,7 +72,7 @@ const dataSource = {
       ]
     },
     {
-      seriesname: "Resolved",
+      seriesname: "Energy",
       data: [
         {
           value: "50"
@@ -106,7 +106,7 @@ const BottomChart = () => {
       <ReactFusioncharts
         type="msspline"
         width="100%"
-        height="100%"
+        height='400'
         dataFormat="JSON"
         dataSource={dataSource}
       />
