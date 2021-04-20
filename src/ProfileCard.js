@@ -21,8 +21,8 @@ import {
 const ProfileCard = () => {
     const classes = {};
     return (
-            <Grid item xs={12}>
-              <Card className={classes.root}  style={{display: 'flex', justifyContent:'space-around'}}>
+            <Grid item xs={12} >
+              <Card className={classes.root}  style={{display: 'flex', justifyContent:'space-around', boxShadow: 'none'}} >
                 {/* <CardHeader
                   avatar={
                     // <Avatar aria-label="recipe" className={classes.avatar}>
@@ -47,13 +47,13 @@ const ProfileCard = () => {
                   <Typography gutterBottom variant="h5" component="h2">
                     Jane Cooper
                   </Typography>
-                  <CardContent style={{display: 'flex'}}>
+                  <CardContent style={{display: 'flex', alignItems:'center', padding: '0'}}>
                     <Avatar alt="Remy Sharp" src={Calender} className={classes.small} />
                     <Typography variant="body2" color="textSecondary" component="p">
                       07/09/1970
                     </Typography>
                   </CardContent>
-                  <CardContent style={{display: 'flex'}}>
+                  <CardContent style={{display: 'flex', alignItems:'center', padding: '0'}}>
                     <Avatar alt="Remy Sharp" src={Calender} className={classes.small} />
                     <Typography variant="body2" color="textSecondary" component="p">
                       Female
@@ -70,7 +70,7 @@ const ProfileCard = () => {
                   {/* <Button size="small" color="primary">
                     Primary
                   </Button> */}
-                  <Button size="small" color="secondary">
+                  <Button size="small" style={{background: 'linear-gradient(102.53deg, #9076F4 2.33%, #B19FF7 107.85%)',borderRadius: '10px', width: '129px', height: '38px', padding: '9px 20px', color: 'white'}}>
                     Secondary
                   </Button>
                 </CardActions>
