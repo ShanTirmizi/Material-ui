@@ -24,14 +24,14 @@ import {
 const CardBottom = () => {
     const classes = {};
     return (
-            <Grid item xs={12}>
-              <div className='wrapper' style={{backgroundColor: 'pink'}}>
+            <Grid item xs={12} style={{background: 'linear-gradient(104.66deg, #58FFEF -67.5%, #8B6CFF 103.46%)', borderRadius: '15px'}}>
+              <div className='wrapper' >
                 <div>
-                  <h3>Wellness score</h3>
-                  <h1>81%</h1>
-                  <CardBottomG />
+                  <h3 style={{margin: '0'}}>Wellness score</h3>
+                  <h1  style={{margin: '0'}}>81%</h1>
+                  <CardBottomG  />
                 </div>
-                <button>button</button>
+                <Button style={{background: 'linear-gradient(102.53deg, #9076F4 2.33%, #B19FF7 107.85%)',borderRadius: '10px', width: '129px', height: '38px', padding: '9px 20px', color: 'white'}}>button</Button>
               </div>
             </Grid>
     )
