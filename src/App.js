@@ -61,11 +61,11 @@ import GreenAvatar from './GreenAvatar';
 function App() {
   const classes = {};
   return (
-    <Container>
-      <Box>
+    <Container style={{  maxWidth:'950px'}}>
+      {/* <Box>
         <GreenAvatar />
         <Typography>Test</Typography>
-      </Box>
+      </Box> */}
       <Grid
         container
         spacing={3}
@@ -99,7 +99,11 @@ function App() {
           </Grid>
         </Grid>
         <Grid item xs={12} >
-          <Paper className={classes.paper} >xs=12</Paper>
+          <Paper className={classes.paper} style={{boxShadow: 'none'}}>
+            <h2>
+              Performance
+            </h2>
+          </Paper>
           <BottomChart />
         </Grid>
       </Grid>
