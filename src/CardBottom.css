@@ -26,14 +26,17 @@
   }
 
   .wrapper > div{
-    background:pink;
+    /* background:pink; */
     padding:1em;
   }
   .wrapper > div:nth-child(odd){
-    background:yellow;
+    /* background:yellow; */
   }
 
   .nested > div{
     border:#333 1px solid;
     padding:1em;
   }
+
+
+
