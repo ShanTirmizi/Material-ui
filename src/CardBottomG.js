@@ -19,7 +19,7 @@ const dataSource = {
     // centerlabel: "# Users: $value",
     theme: "fusion",
     // bgColor: "linear-gradient(104.66deg, #58FFEF -67.5%, #8B6CFF 103.46%)",
-    // bgAlpha: "10",
+    bgAlpha: "0",
     // chartMargin: "0",
     // canvasPadding: "0"
 
