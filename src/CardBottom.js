@@ -26,11 +26,11 @@ import {
 const CardBottom = () => {
     const classes = {};
     return (
-            <Grid item xs={12} style={{background: 'linear-gradient(104.66deg, #58FFEF -67.5%, #8B6CFF 103.46%)', borderRadius: '15px'  }}>
+            <Grid item xs={12} style={{background: 'linear-gradient(-76.66deg, #58FFEF -67.5%, #8B6CFF 103.46%)', borderRadius: '15px'  }}>
               <div className='wrapper' >
                 <div>
-                  <h3 style={{margin: '0'}}>Wellness score</h3>
-                  <h1  style={{margin: '0'}}>81%</h1>
+                  <h3 style={{margin: '0',  color: 'white'}}>Wellness score</h3>
+                  <h1  style={{margin: '0',  color: 'white'}}>81%</h1>
                   {/* <CardBottomG  /> */}
                   <CircleChart />
                 </div>

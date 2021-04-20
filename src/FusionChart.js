@@ -24,7 +24,7 @@ const dataSource = {
     // borderRadius : 100,
 
     //   valueBorderRadius: '100',
-    //   useRoundEdges: true,
+      // useRoundEdges: true,
       animations: {
         enabled: true,
         easing: 'easeinout',
@@ -110,7 +110,7 @@ ReactFC.fcRoot(FusionCharts, Charts, FusionTheme);
 const chartConfigs = {
   type: 'stackedbar2d',
   // width: 600,
-  height: 400,
+  height: 350,
   dataFormat: 'json',
   dataSource: dataSource
 };
