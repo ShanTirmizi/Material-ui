@@ -8,7 +8,7 @@ charts(FusionCharts);
 const dataSource = {
   chart: {
     // caption: "Performance",
-    yaxisname: "# of Tickets",
+    // yaxisname: "# of Tickets",
     // subcaption: "Last week",
     numdivlines: "3",
     showvalues: "0",

@@ -101,7 +101,7 @@ function App() {
         <Grid item xs={12} >
           <Paper className={classes.paper} style={{boxShadow: 'none'}}>
             <h2>
-              Performance
+              Performance trends
             </h2>
           </Paper>
           <BottomChart />
